@@ -8,7 +8,7 @@ There are 3 models saved, NNpart1, NNpart2 and NNpart3.
 
 Right now depModel.py will load a model, which is specified in the model.populate(), and decode using that tree. Make sure that the dimensions of the model layers are all the same, as each model will be different.
 
-To train a new model, the code is in nlphw.py, where you can specify dimensions, minibatch, transfer function etc. At the end, you specify a filename where the new model will be saved.
+To train a new model, the code is in nlp_dependency_parser.py, where you can specify dimensions, minibatch, transfer function etc. At the end, you specify a filename where the new model will be saved.
 
 #####
 Part1:
